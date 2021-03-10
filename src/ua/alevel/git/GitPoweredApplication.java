@@ -5,13 +5,14 @@ public class GitPoweredApplication {
         System.out.println("Hello git");
 
         for (int i = 0; i < 100; i++) {
-            System.out.println("1");
+            System.out.print(i + " ");
         }
-        int z = 22, y = 33;
+        System.out.println();
+        int z = 1000, y = -234;
         if (z > 500 && y < 980) {
-            System.out.println("w");
-        } else if (z < 33 || y > 33) {
-            System.out.println("3");
+            System.out.println("Do me a favor");
+        } else if (z < 200 || y > 23) {
+            System.out.println("Wake up Neo");
         }
 
         switch (z) {//int,byte,char,string
@@ -31,11 +32,13 @@ public class GitPoweredApplication {
         String neo = "Thomas Anderson";
         System.out.println(neo.length());
         for (int i = 0; i < neo.length(); i++) {
-            System.out.println(neo.charAt(i));
+            System.out.print(neo.charAt(i) + " ");
         }
+        System.out.println();
         System.out.println(neo.isEmpty());
         System.out.println("".isEmpty());
-        //System.out.println(neo.concat("!"));
+        System.out.println(" ".isEmpty());
+        System.out.println(neo.concat("!"));
         //String newNeo=neo;
         String newNeo = "Thomas Anderson";
         if (newNeo == neo) {
